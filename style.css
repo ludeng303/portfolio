@@ -1,0 +1,22 @@
+header{
+  background: rgb(97, 95, 95);
+  color: white;
+}
+.inner {
+  height: 100px;
+  width: 48%;
+  display: inline-block;
+  margin: auto;
+}
+.inner-thomb{
+  background: lightgray;
+
+}
+.inner-text{
+  background: lightblue;
+}
+
+footer{
+  background-color: lightseagreen;
+  height: 80px;
+}
