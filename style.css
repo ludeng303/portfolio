@@ -1,6 +1,24 @@
+main{
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 header{
   background: rgb(97, 95, 95);
-  color: white;
+  height: 400px;
+  background-image: url('https://photos.google.com/share/AF1QipNYQ92gxbuUvjL8CrbV1UVPmFHt1S6gu9k7y5TR4NVkwa12-R53ssfKxxeJiNgosA/photo/AF1QipOT75Yz-J8po-LJL7j0k0ZPSNpTmZQvjrw3kHdA?key=M1Y4Qkg5WUZvbkhCcGtLR0ZhNkw4M1hoX01TNmhB');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+h3{
+  font-size: 30px;
 }
 .inner {
   height: 100px;
@@ -13,10 +31,39 @@ header{
 
 }
 .inner-text{
-  background: lightblue;
+  background: gray;
 }
 
 footer{
-  background-color: lightseagreen;
+  color: white;
+  background-color: whitelightseagreen;
   height: 80px;
+  background: rgb(5, 5, 5);
 }
+
+header, footer{
+  padding: 60px;
+}
+
+#cs-h1-name{
+  font-size: 78px;
+  font-weight: bold;
+  color: rgb(233, 233, 233);
+}
+.headline{
+  background-color: rgba(11, 84, 241, 0.8);
+  padding: 10px;
+  color: orange;
+  margin: 0;
+}
+.headline-one{
+  padding-bottom: 1px;
+}
+.headline-two{
+  padding-top: 1px;
+}
+#cs-span-title{
+  color: white;
+
+}
+
