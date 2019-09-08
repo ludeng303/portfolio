@@ -7,7 +7,7 @@ main{
 header{
   background: rgb(97, 95, 95);
   height: 400px;
-  background-image: url('/assets/img-header-bg.png');
+  background-image: url('assets/img-header-bg.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
