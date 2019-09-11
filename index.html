@@ -1,59 +1,84 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Shiloh Den's Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<html lang="en">
+<head>
+	<title>Shiloh Deng</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Lora:400italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn:700italic,700|Exo:400,400italic" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+		<h1>Shiloh Deng</h1>
+	</header>
+	<nav class="navbar">
+		<div class="hamburger">&#9776;</div>
+		<ul class="menu">
+			<li>About</li>
+			<li>Projects</li>
+			<li>Contact</li>
+		</ul>
+	</nav>
+	<main>
+		<section class="product">
+			<i id='profile-pic' class="fas fa-user-tie"></i>
+			<h2>About me</h2>
+			<p>
+				A Full Stack Web Developer based in Denver, Colorado. 
+				I honestly enjoy coding struggles and challenges.
+				Setting myself in the flow to come up with each solution. 
+				Crafting dynamic, responsive, and interactive web applications is my passion. 
+				And lastly, I am a team player who knows the importance of effective communication.
+			</p>
+		</section>
+    	<section class="product">
+			<img id='thombnail' src='assets/img-quiz.png'>
+			<h2>Chinese Food Quiz App</h2>
+			<p>
+				Complete an 8-question quiz, get feedback for your answers, and receive a final score.
+				This is an interactive app that leads user through 4 screens: 
+				[1] Welcome screen, displays intro and a button to start quiz
+				[2] Question screen, displays questions & multiple choice
+				[3] Feedback screen, displays positive or negative feedback
+				[4] Final screen, displays user's final score
+			</p>
+			<ul class="links">
+				<li class="icon">
+					<a href="https://sxiaolu86.github.io/food-quiz/"><i class="fas fa-link">
+				</i></a></li>
+				</li>
+				<li class="icon">
+					<a href="https://github.com/sxiaolu86/food-quiz/ "><i class="fab fa-github-square">
+				</i></a></li>
+			</ul>
+			<ul class="tech-used">
+				<li class="icon"><i class="fab fa-html5"></i></li>
+				<li class="icon"><i class="fab fa-css3"></i></li>
+				<li class="icon"><i class="fab fa-js-square"></i></li>
+			</ul>
+		</section>
 
 
-  </head>
-  <body>
-    <header>
-      <h1 id='cs-h1-name'>Shiloh Den</h1>
-      <h3 class='headline headline-one'>Hello, world.</h3>
-      <h3 class='headline headline-two'>I'm a <span id="cs-span-title">Web Developer</span> based in <span id="cs-span-title">Denver</span>.</h3> 
-    </header>
+	</main>
+  <footer>
+		<ul class="social">
+			<li class="icon">
+					<a href="mailto:sxiaolu86@gmail.com?"><i class="fas fa-envelope-square">
+			</i></a></li>
 
-    <main>
+			<li class="icon">
+					<a href="https://github.com/sxiaolu86"><i class="fab fa-github">
+			</i></a></li>
 
-      <section>
-        <div class="inner inner-thomb">
-          <h3>Project Thombnail image here</h3>
-          <h3>Technology used icons here</h3>
-        </div>
-        <div class="inner inner-text">
-          <h2>project title</h2>
-          <p>Project Description.....</p> 
-          <a><h3>Live Link here</h3></a>
-          <a><h3>Github Repo</h3></a>
-        </div>
-      </section>
-  
-      <section>
-        <div class="inner inner-thomb">
-          <h3>Project Thombnail image here</h3>
-          <h3>Technology used icons here</h3>
-        </div>
-        <div class="inner inner-text">
-          <h2>project title</h2>
-          <p>Project Description.....</p> 
-          <a><h3>Live Link here</h3></a>
-          <a><h3>Github Repo</h3></a>
-        </div>
-      </section>  
-      <section>
-          <div class='bio' id='js-div-bio'>
-            <h2>About me</h2>
-            <h3>Started out programming 2D games on Android phones, and now found new passion in Web Development. I pride myself on being a reliable team player. Besides coding, I love the outdoor, cooking, and League of Legends.</h3>
-          </div>
-        </section>
-    </main>
-
-    <footer>
-      <h3>Contact Info here</h3>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+			<li class="icon">
+					<a href="https://www.linkedin.com/in/xiaolu-deng-559351191/"><i class="fab fa-linkedin">
+			</i></a></li>
+		</ul>
+	</footer>
+	<script src="script.js"></script>
+</body>
 </html>
