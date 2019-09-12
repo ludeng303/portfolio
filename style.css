@@ -27,8 +27,8 @@ h1{
   letter-spacing: 12px;
   font-weight: 700;
   margin-top: 2em;
-  margin-bottom: 2em;
 }
+
 h2{
   font: italic 2.5em 'Lora', Georgia, serif;
   color: #614017;
@@ -37,7 +37,7 @@ h3, li, p{
   font: italic 1.2em 'Lora', Georgia, serif;
   text-transform: none;
 }
-img, h1, h2, section{
+img, #div-header, h2, h3, section{
   display: block;
   margin-left: auto;
   margin-right: auto;
