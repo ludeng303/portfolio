@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -8,59 +7,42 @@ body {
   margin: 0;
   padding: 0;
   background-color: #EDF1F5;
-
 }
-
-#profile-pic{
-  font-size: 6em;
-}
-.logo > img {
-  width: 50px;
-}
-#thombnail{
-font-size: 6em;
-}
-section {
-  margin:5px;
-}
-
-li {
-  list-style-type: none;
-  display: inline-block;
-  margin-right: 1em;
-}
-
-  .menu {
-    display: none;
-  }
-
-.navbar{
-  display:block;
-  background-color: #1E5994;
-  color:  #EDF1F5;
-  font-style:bold;
-  text-align: right;
-  padding: 1em;
-}
-
 section {
   border: 1px solid #61B0FA;
   border-radius:2%;
-
+  margin:5px;
 } 
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction:row;
+  width:100%;
+  list-style-type: none;
+}
+h1{
+  color: #cc992c;
+  font: 88px/66px 'Vollkorn', serif;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 h2{
   font: italic 2.5em 'Lora', Georgia, serif;
   color: #614017;
+}
+h3, li, p{
+  font: italic 1.2em 'Lora', Georgia, serif;
+  text-transform: none;
 }
 img, h1, h2, section{
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-h3, li, p{
-  font: italic 1.2em 'Lora', Georgia, serif;
-  text-transform: none;
+  vertical-align: middle;
 }
 main {
   display:flex;
@@ -69,66 +51,66 @@ main {
 footer{
   color: #cc992c;
 }
-h1{
-  color: #cc992c;
-  font: 66px/42px 'Vollkorn', serif;
-  text-transform: uppercase;
-  letter-spacing: 12px;
-  font-weight: 700;
-  margin-top: 2em;
-  margin-bottom: 2em;
 
+.product i, h2{
+  line-height: 1.5;
+  display: block;
+  vertical-align: middle;
 }
 .product{
   padding: 2em;
 }
-.hamburger{
-  margin:1em;
-}
 .icon{
   font-size: 2.2em;
 }
+.pointer{
+  cursor: pointer;
+  font-size: 2em;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1em;
+  color:  #EDF1F5;
+}
+.navbar{
+  display:block;
+  background-color: #1E5994;
+  font-style:bold;
+  text-align: right;
+  padding: 1em;
+}
+#thombnail{
+font-size: 6em;
+}
+#pro-01-long {
+  visibility: hidden;
+}
+#js-sec-project01:hover #pro-01-short {
+  display: hidden;
+}
+
+#js-sec-project01:hover #pro-01-long {
+  visibility: visible;
+}
+#profile-pic{
+  font-size: 13em;
+}
+
 
 /*
 For any screen larger than 400px
 */
 @media screen and (min-width: 400px) {
-  .hamburger {
-    display: none;
-  }
 
-  .menu {
-    display: inline-block;
-  }
-
-  .square {
-    background-color: red;
-  }
-  .social{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction:row;
-    width:100%;
-  }
 }
 
 /*
 For any screen larger than 700px
 */
 @media screen and (min-width: 700px) {
-  .hamburger {
-    display: none;
-  }
-
-  .menu {
-    display: inline-block;
-  }
-
   main {
   display:flex;
   flex-direction: row;
   }
-
   header {
     display: flex;
     flex-direction: row;
@@ -141,7 +123,4 @@ For any screen larger than 700px
     margin-left:5px;
     margin-right:5px;
   }
-
-
-
 }
