@@ -42,7 +42,6 @@ img, h1, h2, section{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  vertical-align: middle;
 }
 main {
   display:flex;
@@ -55,7 +54,6 @@ footer{
 .product i, h2{
   line-height: 1.5;
   display: block;
-  vertical-align: middle;
 }
 .product{
   padding: 2em;
@@ -81,16 +79,7 @@ footer{
 #thombnail{
 font-size: 6em;
 }
-#pro-01-long {
-  visibility: hidden;
-}
-#js-sec-project01:hover #pro-01-short {
-  display: hidden;
-}
 
-#js-sec-project01:hover #pro-01-long {
-  visibility: visible;
-}
 #profile-pic{
   font-size: 13em;
 }
