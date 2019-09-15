@@ -6,7 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #EDF1F5;
+  background-color: rgb(219, 225, 230);
 }
 section {
   border: 1px solid #61B0FA;
@@ -19,6 +19,7 @@ ul{
   flex-direction:row;
   width:100%;
   list-style-type: none;
+  padding: 0;
 }
 h1{
   color: #cc992c;
@@ -54,6 +55,9 @@ footer{
 .product i, h2{
   line-height: 1.5;
   display: block;
+}
+footer i{
+  color: #cc992c;
 }
 .product{
   padding: 2em;
