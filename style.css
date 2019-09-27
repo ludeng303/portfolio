@@ -101,8 +101,8 @@ For any screen larger than 700px
 */
 @media screen and (min-width: 700px) {
   main {
-  display:flex;
-  flex-direction: row;
+  display:flexbox;
+
   }
   header {
     display: flex;
