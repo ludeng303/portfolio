@@ -81,11 +81,12 @@ footer i{
   padding: 1em;
 }
 #thombnail{
-font-size: 6em;
+  font-size: 6em;
 }
 
 #profile-pic{
-  font-size: 13em;
+  border-radius: 50px;
+
 }
 
 
