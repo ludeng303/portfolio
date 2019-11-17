@@ -27,7 +27,7 @@ h1{
   text-transform: uppercase;
   letter-spacing: 12px;
   font-weight: 700;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 h2{
@@ -35,7 +35,7 @@ h2{
   color: #614017;
 }
 h3, li, p{
-  font: italic 1.2em 'Lora', Georgia, serif;
+  font: italic 2rem 'Lora', Georgia, serif;
   text-transform: none;
 }
 img, #div-header, h2, h3, section{
@@ -63,30 +63,47 @@ footer i{
   padding: 2em;
 }
 .icon{
-  font-size: 2.2em;
+  font-size: 3.2em;
 }
 .pointer{
+  height: auto;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.3em;
   list-style-type: none;
   display: inline-block;
   margin-right: 1em;
   color:  #EDF1F5;
 }
 .navbar{
+  position: sticky;
+  top:0;
   display:block;
   background-color: #1E5994;
   font-style:bold;
   text-align: right;
-  padding: 1em;
+  padding: 0.3em;
 }
-#thombnail{
-  font-size: 6em;
+.demo{
+  height: 24rem;
+  width: 80%;
 }
 
 #profile-pic{
-  border-radius: 50px;
+  border-radius: 100%;
+  width: 8rem;
+  height: 8rem;
+}
 
+#js-sec-about{
+  margin: auto;
+  margin-top: 3rem;
+  width: 90%;
+  background-size: 100% 33%;
+  background-image: url("assets/img-header-bg.png");
+  background-repeat: no-repeat;
+}
+#js-sec-about h2{
+  color: #cc992c;
 }
 
 

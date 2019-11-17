@@ -12,13 +12,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Vollkorn:700italic,700|Exo:400,400italic" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <header>
-	  <div id="div-header">
+	<header>
+		<div id="div-header">
 			<h1 id="h1-title">Portfolio</h1>
 			<h2 id="h2-name">Xiaolu Deng</h2>
-	  </div>
-
+		</div>
 	</header>
+
 	<nav class="navbar">
 		<div class="menu">
 			<p onclick="showAbout()" class="pointer" id='js-p-about'>About</p>
@@ -27,8 +27,10 @@
 	</nav>
 	<main>
 		<section class="product" id="js-sec-about">
-			<img id='profile-pic' src='assets/myself.png'></i>
-			<h2>About me</h2>
+			<div id="pic-frame">
+				<img id='profile-pic' src='assets/myself.png'></i>
+			</div>
+			<h2><strong>About me</strong></h2>
 			<p>
 				A Front-end Web Developer based in Denver, Colorado. Using technologies including HTML, CSS, and JavaScript ( Jquery, Ajax, React ).
                 Passionate about crafting responsive and interactive web applications that are informative to users.    
@@ -40,12 +42,12 @@
 			<ul class="contact-text">
 				<li class="icon">
 					<i class="fas fa-envelope-square"></i>
-					<p> sxiaolu86@gmail.com</p></li>
+					<p>ludeng720@gmail.com</p></li>
 			</ul>
 		</section>
 		<section class="product" id="js-sec-project01">
 			<h3>Project 1/3</h3>
-			<img id='thombnail' src='assets/menu-search.png' alt='Screenshot of Chinese food quiz with Ramsay'>
+			<iframe class='demo' src="https://sxiaolu86.github.io/zip-code-menus/"></iframe>
 			<h2>US Zip Code Search</h2>
 			<p id='pro-01-long'>
 					An search app that: [1] Prompts one zip code from the user [2] Displays census information about user's zip code.
@@ -53,10 +55,10 @@
 			<p>Language used: HTML, CSS and JavaScript</p>
 			<ul class="links">
 				<li class="icon">
-					<a href="https://sxiaolu86.github.io/zip-code-menus/"><p>Demo</p></a>
+					<a href="https://sxiaolu86.github.io/zip-code-menus/"><p>Demo in new link</p></a>
 				</li>
 				<li class="icon">
-					<a href="https://github.com/sxiaolu86/zip-code-menus"><p>Repo</p></a>
+					<a href="https://github.com/sxiaolu86/zip-code-menus"><p>Repo on GitHub</p></a>
 				</li>
 			</ul>
 		</section>
@@ -73,33 +75,11 @@
 			</p>
 			<a href="https://play.google.com/store/apps/details?id=com.furtherignite.quickmathchallenge"><p>Demo on Google Play</p></a>
 		</section>
-		<section class="product" id="js-sec-project03">
-			<h3>Project 3/3</h3>
-			<img id='thombnail' src='assets/img-quiz.png' alt='Screenshot of Chinese food quiz with Ramsay'>
-			<h2>Chinese Food Quiz</h2>
-			<p id='pro-01-long'>
-					An interactive quiz that showcase my basic JavaScript skill: 
-					[1] Welcome screen displays a short intro and a button to start the quiz.
-					[2] Question screen displays each questions with its multiple choice answers.
-					[3] Feedback screen displays a positive or negative feedback after each user submission.
-					[4] Final screen concludes user's final score.
-			</p>
-			<p>Language used: HTML, CSS and JavaScript</p>
-			<ul class="links">
-				<li class="icon">
-					<a href="https://sxiaolu86.github.io/food-quiz/"><p>Demo</p></a>
-				</li>
-				<li class="icon">
-					<a href="https://github.com/sxiaolu86/food-quiz/ "><p>Repo</p></a>
-				</li>
-			</ul>
-
-		</section>
 	</main>
   <footer id='js-footer-contact'>
 		<ul class="social">
 			<li class="icon">
-					<a href="mailto:sxiaolu86@gmail.com?"><i class="fas fa-envelope-square">
+					<a href="mailto:ludeng720@gmail.com?"><i class="fas fa-envelope-square">
 			</i></a></li>
 
 			<li class="icon">
