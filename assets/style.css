@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 225, 230);
+}
+section {
+  border: 1px solid #61B0FA;
+  border-radius:2%;
+  margin:5px;
+} 
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction:row;
+  width:100%;
+  list-style-type: none;
+  padding: 0;
+}
+h1{
+  color: #cc992c;
+  font: 88px/66px 'Vollkorn', serif;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
+
+h2{
+  font: italic 2.5em 'Lora', Georgia, serif;
+  color: #614017;
+}
+h3, li, p{
+  font: italic 2rem 'Lora', Georgia, serif;
+  text-transform: none;
+}
+img, #div-header, h2, h3, section{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+main {
+  display:flex;
+  flex-direction: column;
+}
+footer{
+  color: #cc992c;
+}
+
+.product i, h2{
+  line-height: 1.5;
+  display: block;
+}
+footer i{
+  color: #cc992c;
+}
+.product{
+  padding: 2em;
+}
+.icon{
+  font-size: 3.2em;
+}
+.pointer{
+  height: auto;
+  cursor: pointer;
+  font-size: 1.3em;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1em;
+  color:  #EDF1F5;
+}
+.navbar{
+  position: sticky;
+  top:0;
+  display:block;
+  background-color: #1E5994;
+  font-style:bold;
+  text-align: right;
+  padding: 0.3em;
+}
+.demo{
+  height: 24rem;
+  width: 80%;
+}
+
+#profile-pic{
+  border-radius: 100%;
+  width: 8rem;
+  height: 8rem;
+}
+
+#js-sec-about{
+  margin: auto;
+  margin-top: 3rem;
+  width: 90%;
+  background-size: 100% 33%;
+  background-image: url("assets/img-header-bg.png");
+  background-repeat: no-repeat;
+}
+#js-sec-about h2{
+  color: #cc992c;
+}
+
+
+/*
+For any screen larger than 400px
+*/
+@media screen and (min-width: 400px) {
+
+}
+
+/*
+For any screen larger than 700px
+*/
+@media screen and (min-width: 700px) {
+  main {
+  display:flexbox;
+
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+  }
+  img {
+    vertical-align: middle;
+  }
+  section {
+    margin-left:5px;
+    margin-right:5px;
+  }
+}
