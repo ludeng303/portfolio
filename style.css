@@ -35,7 +35,7 @@ h2{
   color: #614017;
 }
 h3, li, p{
-  font: italic 2rem 'Lora', Georgia, serif;
+  font: italic 1.5rem 'Lora', Georgia, serif;
   text-transform: none;
 }
 img, #div-header, h2, h3, section{
