@@ -9,10 +9,10 @@
 
   
   function showProjects() {
+    $('#js-sec-about').hide();
     $('#js-sec-project01').show();
     $('#js-sec-project02').show();
     $('#js-sec-project03').show();
-    $('#js-sec-about').hide();
     document.getElementById("js-p-projects").style.color = "#cc992c";
     document.getElementById("js-p-about").style.color = "#EDF1F5";
   }
