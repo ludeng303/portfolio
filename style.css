@@ -23,7 +23,7 @@ ul{
 }
 h1{
   color: #cc992c;
-  font: 88px/66px 'Vollkorn', serif;
+  font: 39px/66px 'Vollkorn', serif;
   text-transform: uppercase;
   letter-spacing: 12px;
   font-weight: 700;
@@ -110,8 +110,31 @@ footer i{
 /*
 For any screen larger than 400px
 */
-@media screen and (min-width: 400px) {
-
+@media screen and (max-width: 400px) {
+  img {
+    width: 60%;
+    height: 75%;
+  }
+  h1{
+    font: 18px/66px 'Vollkorn', serif;
+    letter-spacing: 2px;
+    font-weight: 350;
+    margin-top: 0.5em;
+  }
+  h2{
+    font: italic 1.2em 'Lora', Georgia, serif;
+    color: #614017;
+  }
+  #js-sec-about{
+    margin-top: 1rem;
+    background-size: unset;
+    background-image: url("assets/img-header-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+  #h2-name {
+    
+  }
 }
 
 /*
