@@ -12,10 +12,12 @@ section {
   margin: auto;
   border: 1px solid #61B0FA;
   border-radius:2%;
-  background-color: #BACAD6;
+  background-color: #dbe1e6;
   width: 90%;
   display: block;
   text-align: center;
+  margin-top: 3rem;
+  
 } 
 ul{
   display: flex;
@@ -96,14 +98,10 @@ footer i{
   border-radius: 100%;
   width: 8rem;
   height: 8rem;
+  padding-top: 1rem;
 }
 
-#js-sec-about{
-  margin-top: 3rem;
-  background-size: 100% 33%;
-  background-image: url("assets/img-header-bg.png");
-  background-repeat: no-repeat;
-}
+
 #js-sec-about h2{
   color: #cc992c;
 }
@@ -128,10 +126,6 @@ For any screen larger than 400px
     color: #614017;
   }
   #js-sec-about{
-    margin-top: 1rem;
-    background-size: unset;
-    background-image: url("assets/img-header-bg.png");
-    background-repeat: no-repeat;
     background-position-x: right;
   }
 }
