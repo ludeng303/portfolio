@@ -6,19 +6,24 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(219, 225, 230);
+  background: url('assets/img-city.png');
+  background-size: cover;
+  background-attachment: fixed;
 }
 section {
   margin: auto;
-  border: 1px solid #61B0FA;
+  border: 0,1px,1px,0 solid orange;
   border-radius:2%;
-  background-color: #dbe1e6;
   width: 90%;
   display: block;
   text-align: center;
   margin-top: 3rem;
-  
+  background: rgba(20,100,200,0.9);
+  color: whitesmoke;
 } 
+iframe{
+  background-color: whitesmoke;
+}
 ul{
   display: flex;
   justify-content: space-evenly;
@@ -29,16 +34,16 @@ ul{
 }
 h1{
   color: #cc992c;
-  font: 39px/66px 'Vollkorn', serif;
+  font: 60px/66px 'Vollkorn', serif;
   text-transform: uppercase;
   letter-spacing: 12px;
   font-weight: 700;
-  margin-top: 0.5em;
+  margin-top: 3.5em;
 }
 
 h2{
   font: italic 2.5em 'Lora', Georgia, serif;
-  color: #614017;
+  color: #cc992c;
 }
 h3, li, p{
   font: italic 1.5rem 'Lora', Georgia, serif;
@@ -56,6 +61,11 @@ main {
 }
 footer{
   color: #cc992c;
+  background-color:  #1E5994;
+}
+footer ul{
+  margin: 0;
+  margin-top: 1.5rem;
 }
 
 .product i, h2{
@@ -100,7 +110,9 @@ footer i{
   height: 8rem;
   padding-top: 1rem;
 }
+header{
 
+}
 
 #js-sec-about h2{
   color: #cc992c;
