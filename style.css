@@ -114,6 +114,10 @@ footer i{
 #js-sec-about h2{
   color: #cc992c;
 }
+#img-credit{
+  width: auto;
+  padding: 2%;
+}
 @media screen and (max-width: 500px) {
   img {
     width: 60%;
