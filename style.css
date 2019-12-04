@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -9,6 +8,22 @@ body {
   background: url('assets/img-city.png');
   background-size: cover;
   background-attachment: fixed;
+}
+h1{
+  color: #cc992c;
+  font: 60px/66px 'Vollkorn', serif;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-weight: 700;
+  margin-top: 3.5em;
+}
+h2{
+  font: italic 2.5em 'Lora', Georgia, serif;
+  color: #cc992c;
+}
+h3, li, p{
+  font: italic 1.5rem 'Lora', Georgia, serif;
+  text-transform: none;
 }
 section {
   margin: auto;
@@ -22,7 +37,7 @@ section {
   color: whitesmoke;
 } 
 iframe{
-  background-color: whitesmoke;
+  background-color: silver;
 }
 ul{
   display: flex;
@@ -32,22 +47,9 @@ ul{
   list-style-type: none;
   padding: 0;
 }
-h1{
+a{
   color: #cc992c;
-  font: 60px/66px 'Vollkorn', serif;
-  text-transform: uppercase;
-  letter-spacing: 12px;
-  font-weight: 700;
-  margin-top: 3.5em;
-}
-
-h2{
-  font: italic 2.5em 'Lora', Georgia, serif;
-  color: #cc992c;
-}
-h3, li, p{
-  font: italic 1.5rem 'Lora', Georgia, serif;
-  text-transform: none;
+  text-decoration: none;
 }
 img, #div-header, h2, h3{
   display: block;
@@ -67,7 +69,6 @@ footer ul{
   margin: 0;
   margin-top: 1.5rem;
 }
-
 .product i, h2{
   line-height: 1.5;
   display: block;
@@ -78,8 +79,9 @@ footer i{
 .product{
   padding: 2em;
 }
-.icon{
-  font-size: 3.2em;
+.link p{
+  margin: 0;
+  font-size: 1.2em;
 }
 .pointer{
   height: auto;
@@ -103,25 +105,15 @@ footer i{
   height: 24rem;
   width: 80%;
 }
-
 #profile-pic{
   border-radius: 100%;
   width: 8rem;
   height: 8rem;
   padding-top: 1rem;
 }
-header{
-
-}
-
 #js-sec-about h2{
   color: #cc992c;
 }
-
-
-/*
-For any screen larger than 400px
-*/
 @media screen and (max-width: 500px) {
   img {
     width: 60%;
@@ -141,14 +133,9 @@ For any screen larger than 400px
     background-position-x: right;
   }
 }
-
-/*
-For any screen larger than 700px
-*/
 @media screen and (min-width: 700px) {
   main {
-  display:flexbox;
-
+    display:flexbox;
   }
   header {
     display: flex;
