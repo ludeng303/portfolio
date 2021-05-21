@@ -30,7 +30,7 @@ p {
 section {
   margin: auto;
   border: 0, 1px, 1px, 0 solid orange;
-  border-radius: 2%;
+  border-radius: 1%;
   width: 90%;
   display: block;
   text-align: center;
