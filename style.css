@@ -3,56 +3,89 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
   background: url('assets/img-city.png');
   background-size: cover;
   background-attachment: fixed;
+  margin: 0;
+  padding-bottom: 100px;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #1e5994;
+  font-style: bold;
+  text-align: right;
+  width: 100%;
+  padding-right: 60px;
+}
+
 h1 {
-  color: #cc992c;
+  color: #fff;
   font: 80px/88px 'Vollkorn', serif;
   text-transform: uppercase;
   letter-spacing: 12px;
   font-weight: 700;
   margin-top: 3.5em;
 }
+
 h2 {
   font: italic 2.5em 'Lora', Georgia, serif;
   color: #cc992c;
 }
+
 h3,
 li,
 p {
   font: italic 1.5rem 'Lora', Georgia, serif;
   text-transform: none;
 }
+
 section {
+  background: rgba(20, 100, 200, 0.9);
   margin: auto;
   border: 0, 1px, 1px, 0 solid orange;
   border-radius: 1%;
-  width: 90%;
-  display: block;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 3rem;
-  background: rgba(20, 100, 200, 0.9);
   color: whitesmoke;
 }
+
+.social-presents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 iframe {
   background-color: silver;
 }
+
 ul {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
   list-style-type: none;
   padding: 0;
 }
+
 a {
   color: #cc992c;
   text-decoration: none;
 }
+
+i {
+  font-size: 50px;
+}
+
 img,
 #div-header,
 h2,
@@ -62,26 +95,13 @@ h3 {
   margin-right: auto;
   text-align: center;
 }
-main {
-  display: flex;
-  flex-direction: column;
-}
-footer {
-  color: #cc992c;
-  background-color: #1e5994;
-}
-footer ul {
-  margin: 0;
-  margin-top: 1.5rem;
-}
+
 .product i,
 h2 {
   line-height: 1.5;
   display: block;
 }
-footer i {
-  color: #cc992c;
-}
+
 .product {
   padding: 2em;
 }
@@ -98,15 +118,7 @@ footer i {
   margin-right: 1em;
   color: #edf1f5;
 }
-.navbar {
-  position: sticky;
-  top: 0;
-  display: block;
-  background-color: #1e5994;
-  font-style: bold;
-  text-align: right;
-  padding: 0.3em;
-}
+
 .demo {
   height: 24rem;
   width: 80%;
